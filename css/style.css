@@ -106,3 +106,30 @@ h1{
     }
     
 }
+
+.right, .left{
+    display: inline-block;
+}
+.right{
+    float: right;
+}
+.right p{
+    font-size: 1.5rem;
+}
+.left a{
+    color: black;
+    font-size: 20px;
+    margin-left: 2rem;
+    padding: 1.5rem;
+    border: solid 2px black;
+    border-radius: 50%;   
+}
+.left a:hover{
+    background-color:#a31123;
+    color: white;
+    transition: 1s;
+}
+
+.container{
+    margin-top: 5rem;
+}
